@@ -1,3 +1,69 @@
+HELIX    1   1 VAL A   37  PHE A   44  1                                   8
+HELIX    2   2 LEU A   54  ARG A   63  1                                  10
+HELIX    3   3 LEU A   77  PHE A   85  1                                   9
+HELIX    4   4 LEU A   88  ALA A  104  1                                  17
+HELIX    5   5 THR A  112  LYS A  148  1                                  37
+HELIX    6   6 ALA A  170  ASP A  172  1                                   3
+HELIX    7   7 SER A  206  THR A  209  1                                   4
+HELIX    8   8 GLY A  261  ILE A  263  1                                   3
+HELIX    9   9 PRO A  276  ILE A  302  1                                  27
+HELIX   10  10 ASP A  309  VAL A  311  1                                   3
+HELIX   11  11 TRP A  316  ALA A  334  1                                  19
+HELIX   12  12 LEU A  339  LYS A  357  1                                  19
+HELIX   13  13 LEU A  364  CYS A  372  1                                   9
+HELIX   14  14 LYS A  380  LEU A  384  1                                   5
+HELIX   15  15 ASP A  436  LEU A  447  1                                  12
+HELIX   16  16 ALA A  468  MET A  480  1                                  13
+HELIX   17  17 GLU A  494  ALA A  496  1                                   3
+HELIX   18  18 ALA A  498  LEU A  506  1                                   9
+HELIX   19  19 PRO A  545  ARG A  551  1                                   7
+HELIX   20  20 SER A  566  GLY A  580  1                                  15
+HELIX   21  21 SER A  608  TYR A  614  1                                   7
+HELIX   22  22 VAL A  634  GLN A  643  1                                  10
+HELIX   23  23 LYS A  656  ILE A  666  1                                  11
+HELIX   24  24 GLY A  682  ASP A  686  1                                   5
+HELIX   25  25 PRO A  690  ASN A  699  1                                  10
+HELIX   26  26 PRO A  708  PHE A  721  1                                  14
+HELIX   27  27 ALA A  735  LYS A  740  1                                   6
+HELIX   28  28 ALA A  752  ALA A  757  1                                   6
+HELIX   29  29 PHE A  767  LEU A  808  1                                  42
+HELIX   30  30 PRO A  816  ASP A  827  1                                  12
+HELIX   31  31 LEU A  829  PHE A  836  1                                   8
+HELIX   32  32 ILE A  843  ASN A  845  1                                   3
+HELIX   33  33 GLY A  858  ILE A  884  1                                  27
+HELIX   34  34 PHE A  894  SER A  898  1                                   5
+HELIX   35  35 PHE A  900  GLU A  905  1                                   6
+HELIX   36  36 ALA A  916  GLU A  919  1                                   4
+HELIX   37  37 PRO A  921  LEU A  943  1                                  23
+HELIX   38  38 ILE A  958  TYR A  976  1                                  19
+HELIX   39  39 LEU A  980  ILE A  983  1                                   4
+HELIX   40  40 VAL A  991  ARG A 1016  1                                  26
+SHEET    1   1 1 MET A 154  VAL A 157  0
+SHEET    2   2 1 GLN A 166  LYS A 169  0
+SHEET    3   3 1 ILE A 178  ILE A 181  0
+SHEET    4   4 1 ASP A 190  LEU A 193  0
+SHEET    5   5 1 ARG A 202  ASP A 204  0
+SHEET    6   6 1 ASN A 241  ALA A 244  0
+SHEET    7   7 1 ALA A 247  ALA A 253  0
+SHEET    8   8 1 ALA A 359  VAL A 361  0
+SHEET    9   9 1 VAL A 375  SER A 378  0
+SHEET   10  10 1 ARG A 393  GLU A 401  0
+SHEET   11  11 1 THR A 404  THR A 411  0
+SHEET   12  12 1 ALA A 452  ASN A 456  0
+SHEET   13  13 1 VAL A 461  VAL A 465  0
+SHEET   14  14 1 MET A 507  LEU A 513  0
+SHEET   15  15 1 SER A 521  PRO A 528  0
+SHEET   16  16 1 LYS A 538  GLY A 543  0
+SHEET   17  17 1 CYS A 552  VAL A 557  0
+SHEET   18  18 1 THR A 560  PRO A 563  0
+SHEET   19  19 1 CYS A 588  HIS A 594  0
+SHEET   20  20 1 LEU A 618  GLY A 625  0
+SHEET   21  21 1 ARG A 647  MET A 650  0
+SHEET   22  22 1 ALA A 679  THR A 681  0
+SHEET   23  23 1 CYS A 702  ALA A 704  0
+SHEET   24  24 1 THR A 725  GLY A 729  0
+SHEET   25  25 1 ILE A 743  MET A 747  0
+SHEET   26  26 1 MET A 760  LEU A 762  0
 CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
 ATOM      1  N   MET A  29      48.405  10.906 -47.802  1.00  0.44           N
 ATOM      2  CA  MET A  29      48.125  11.677 -49.053  1.00  0.44           C
@@ -7631,38 +7697,72 @@ ATOM   7629  CE2 TYR A1018     -20.091 -12.190 -23.923  1.00  0.51           C
 ATOM   7630  CZ  TYR A1018     -21.383 -12.577 -24.295  1.00  0.51           C
 ATOM   7631  OH  TYR A1018     -22.174 -11.709 -25.075  1.00  0.51           O
 ATOM   7632  OXT TYR A1018     -18.405 -15.780 -25.255  1.00  0.51           O
-ATOM   7633  PG  ACP _   1      12.315 -10.649 -56.863  1.00 48.84           P
-ATOM   7634  O1G ACP _   1      11.571 -11.971 -56.682  1.00 42.05           O
-ATOM   7635  O2G ACP _   1      11.324  -9.585 -57.349  1.00 53.69           O
-ATOM   7636  O3G ACP _   1      12.920 -10.200 -55.561  1.00 64.08           O
-ATOM   7637  PB  ACP _   1      13.343 -10.938 -59.809  1.00 52.53           P
-ATOM   7638  O1B ACP _   1      12.564 -12.178 -60.078  1.00 57.67           O
-ATOM   7639  O2B ACP _   1      14.607 -10.969 -60.578  1.00 51.62           O
-ATOM   7640  C3B ACP _   1      13.758 -10.796 -58.009  1.00 58.76           C
-ATOM   7641  PA  ACP _   1      13.244  -8.222 -60.664  1.00 50.12           P
-ATOM   7642  O1A ACP _   1      14.521  -8.112 -59.927  1.00 56.86           O
-ATOM   7643  O2A ACP _   1      12.381  -7.061 -60.330  1.00 52.76           O
-ATOM   7644  O3A ACP _   1      12.486  -9.615 -60.283  1.00 42.25           O
-ATOM   7645  O5' ACP _   1      13.526  -8.279 -62.308  1.00 43.25           O
-ATOM   7646  C5' ACP _   1      12.446  -8.723 -63.103  1.00 46.46           C
-ATOM   7647  C4' ACP _   1      12.971  -9.666 -64.204  1.00 46.09           C
-ATOM   7648  O4' ACP _   1      14.073  -9.194 -64.661  1.00 51.63           O
-ATOM   7649  C3' ACP _   1      13.359 -11.042 -63.608  1.00 41.19           C
-ATOM   7650  O3' ACP _   1      12.312 -11.892 -63.735  1.00 44.46           O
-ATOM   7651  C2' ACP _   1      14.473 -11.527 -64.503  1.00 47.71           C
-ATOM   7652  O2' ACP _   1      13.867 -12.369 -65.600  1.00 53.45           O
-ATOM   7653  C1' ACP _   1      14.999 -10.451 -65.050  1.00 51.91           C
-ATOM   7654  N9  ACP _   1      16.366 -10.222 -64.603  1.00 50.20           N
-ATOM   7655  C8  ACP _   1      16.842 -10.187 -63.337  1.00 49.14           C
-ATOM   7656  N7  ACP _   1      18.166  -9.930 -63.407  1.00 52.95           N
-ATOM   7657  C5  ACP _   1      18.501  -9.810 -64.694  1.00 48.23           C
-ATOM   7658  C6  ACP _   1      19.701  -9.561 -65.319  1.00 53.85           C
-ATOM   7659  N6  ACP _   1      21.131  -9.311 -64.864  1.00 61.29           N
-ATOM   7660  N1  ACP _   1      19.756  -9.492 -66.652  1.00 56.62           N
-ATOM   7661  C2  ACP _   1      18.628  -9.669 -67.397  1.00 50.78           C
-ATOM   7662  N3  ACP _   1      17.439  -9.914 -66.772  1.00 47.50           N
-ATOM   7663  C4  ACP _   1      17.382  -9.988 -65.434  1.00 46.77           C
-ATOM   7664  MG  MG  _   2      14.862 -10.717 -54.421  1.00 43.50          MG
-ATOM   7665  CA  CA  _   3       2.555   3.082  -5.452  1.00 82.26          CA
-ATOM   7666  CA  CA  _   4      -0.209  -1.688  -3.672  1.00 84.47          CA
+TER    7633      TYR A1018
+HETATM 7634  PG  ACP _   1      12.315 -10.649 -56.863  1.00 48.84           P
+HETATM 7635  O1G ACP _   1      11.571 -11.971 -56.682  1.00 42.05           O
+HETATM 7636  O2G ACP _   1      11.324  -9.585 -57.349  1.00 53.69           O
+HETATM 7637  O3G ACP _   1      12.920 -10.200 -55.561  1.00 64.08           O
+HETATM 7638  PB  ACP _   1      13.343 -10.938 -59.809  1.00 52.53           P
+HETATM 7639  O1B ACP _   1      12.564 -12.178 -60.078  1.00 57.67           O
+HETATM 7640  O2B ACP _   1      14.607 -10.969 -60.578  1.00 51.62           O
+HETATM 7641  C3B ACP _   1      13.758 -10.796 -58.009  1.00 58.76           C
+HETATM 7642  PA  ACP _   1      13.244  -8.222 -60.664  1.00 50.12           P
+HETATM 7643  O1A ACP _   1      14.521  -8.112 -59.927  1.00 56.86           O
+HETATM 7644  O2A ACP _   1      12.381  -7.061 -60.330  1.00 52.76           O
+HETATM 7645  O3A ACP _   1      12.486  -9.615 -60.283  1.00 42.25           O
+HETATM 7646  O5' ACP _   1      13.526  -8.279 -62.308  1.00 43.25           O
+HETATM 7647  C5' ACP _   1      12.446  -8.723 -63.103  1.00 46.46           C
+HETATM 7648  C4' ACP _   1      12.971  -9.666 -64.204  1.00 46.09           C
+HETATM 7649  O4' ACP _   1      14.073  -9.194 -64.661  1.00 51.63           O
+HETATM 7650  C3' ACP _   1      13.359 -11.042 -63.608  1.00 41.19           C
+HETATM 7651  O3' ACP _   1      12.312 -11.892 -63.735  1.00 44.46           O
+HETATM 7652  C2' ACP _   1      14.473 -11.527 -64.503  1.00 47.71           C
+HETATM 7653  O2' ACP _   1      13.867 -12.369 -65.600  1.00 53.45           O
+HETATM 7654  C1' ACP _   1      14.999 -10.451 -65.050  1.00 51.91           C
+HETATM 7655  N9  ACP _   1      16.366 -10.222 -64.603  1.00 50.20           N
+HETATM 7656  C8  ACP _   1      16.842 -10.187 -63.337  1.00 49.14           C
+HETATM 7657  N7  ACP _   1      18.166  -9.930 -63.407  1.00 52.95           N
+HETATM 7658  C5  ACP _   1      18.501  -9.810 -64.694  1.00 48.23           C
+HETATM 7659  C6  ACP _   1      19.701  -9.561 -65.319  1.00 53.85           C
+HETATM 7660  N6  ACP _   1      21.131  -9.311 -64.864  1.00 61.29           N
+HETATM 7661  N1  ACP _   1      19.756  -9.492 -66.652  1.00 56.62           N
+HETATM 7662  C2  ACP _   1      18.628  -9.669 -67.397  1.00 50.78           C
+HETATM 7663  N3  ACP _   1      17.439  -9.914 -66.772  1.00 47.50           N
+HETATM 7664  C4  ACP _   1      17.382  -9.988 -65.434  1.00 46.77           C
+HETATM 7665 MG   MG  _   2      14.862 -10.717 -54.421  1.00 43.50          Mg
+HETATM 7666 CA   CA  _   3       2.555   3.082  -5.452  1.00 82.26          Ca
+HETATM 7667 CA   CA  _   4      -0.209  -1.688  -3.672  1.00 84.47          Ca
+CONECT 7654 7649 7652 7655
+CONECT 7662 7661 7663
+CONECT 7652 7650 7653 7654
+CONECT 7650 7648 7651 7652
+CONECT 7641 7634 7638
+CONECT 7664 7655 7658 7663
+CONECT 7648 7647 7649 7650
+CONECT 7658 7657 7659 7664
+CONECT 7647 7646 7648
+CONECT 7659 7658 7660 7661
+CONECT 7656 7655 7657
+CONECT 7661 7659 7662
+CONECT 7663 7662 7664
+CONECT 7660 7659
+CONECT 7657 7656 7658
+CONECT 7655 7654 7656 7664
+CONECT 7643 7642
+CONECT 7639 7638
+CONECT 7635 7634
+CONECT 7653 7652
+CONECT 7644 7642
+CONECT 7640 7638
+CONECT 7636 7634
+CONECT 7651 7650
+CONECT 7645 7638 7642
+CONECT 7637 7634
+CONECT 7637 7665
+CONECT 7649 7648 7654
+CONECT 7646 7642 7647
+CONECT 7642 7643 7644 7645 7646
+CONECT 7638 7639 7640 7641 7645
+CONECT 7634 7635 7636 7637 7641
+CONECT 7665 7637
 END
