@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-# coding: utf-8
 
-# In[17]:
+### Created by Marcus Hock
+# Used for a quick plot of all of the default outputs from the MDOUT files from the CHARMM-GUI settings for AMBER
+# The script will look for .mdout files in the current directory where the script is ran from 
 
 
 import numpy as np
@@ -9,7 +10,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# In[62]:
 
 
 i = 1
