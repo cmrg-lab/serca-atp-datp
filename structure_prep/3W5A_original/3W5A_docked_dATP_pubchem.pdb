@@ -7747,83 +7747,83 @@ ENDMDL
 CONECT 6729 6728 6826
 CONECT 6826 6729 6825
 MODEL        2
-HETATM    1  P   dATP    1     -27.514  -0.712 -59.532  1.00  0.00           P
-HETATM    2  P   dATP    1     -24.988  -1.850 -58.535  1.00  0.00           P
-HETATM    3  P   dATP    1     -23.218  -2.539 -60.793  1.00  0.00           P
-HETATM    4  O   dATP    1     -26.109  -0.767 -63.611  1.00  0.00           O
-HETATM    5  O   dATP    1     -27.032   1.633 -65.320  1.00  0.00           O
-HETATM    6  O   dATP    1     -26.888  -0.289 -60.963  1.00  0.00           O
-HETATM    7  O   dATP    1     -26.237  -0.827 -58.548  1.00  0.00           O
-HETATM    8  O   dATP    1     -28.264   0.623 -59.010  1.00  0.00           O
-HETATM    9  O   dATP    1     -28.380  -1.938 -59.560  1.00  0.00           O
-HETATM   10  O   dATP    1     -24.387  -1.725 -60.029  1.00  0.00           O
-HETATM   11  O   dATP    1     -25.684  -3.309 -58.530  1.00  0.00           O
-HETATM   12  O   dATP    1     -23.990  -1.625 -57.439  1.00  0.00           O
-HETATM   13  O   dATP    1     -23.828  -4.031 -60.910  1.00  0.00           O
-HETATM   14  O   dATP    1     -23.293  -1.982 -62.307  1.00  0.00           O
-HETATM   15  O   dATP    1     -21.868  -2.452 -60.143  1.00  0.00           O
-HETATM   16  N   dATP    1     -26.500  -2.680 -64.958  1.00  0.00           N
-HETATM   17  N   dATP    1     -26.268  -4.744 -65.780  1.00  0.00           N
-HETATM   18  N   dATP    1     -27.161  -3.215 -62.682  1.00  0.00           N
-HETATM   19  N   dATP    1     -27.268  -5.628 -62.330  1.00  0.00           N
-HETATM   20  N   dATP    1     -26.768  -7.202 -64.061  1.00  0.00           N
-HETATM   21  C   dATP    1     -27.748   0.729 -64.483  1.00  0.00           C
-HETATM   22  C   dATP    1     -26.903   0.386 -63.260  1.00  0.00           C
-HETATM   23  C   dATP    1     -26.509  -1.223 -64.916  1.00  0.00           C
-HETATM   24  C   dATP    1     -27.866  -0.596 -65.202  1.00  0.00           C
-HETATM   25  C   dATP    1     -27.748   0.025 -62.046  1.00  0.00           C
-HETATM   26  C   dATP    1     -26.799  -3.536 -63.933  1.00  0.00           C
-HETATM   27  C   dATP    1     -26.188  -3.457 -66.046  1.00  0.00           C
-HETATM   28  C   dAT     1     -26.648  -4.808 -64.463  1.00  0.00           C
-HETATM   29  C   dATP    1     -26.898  -5.878 -63.609  1.00  0.00           C
-HETATM   30  C   dATP    1     -27.375  -4.331 -61.952  1.00  0.00           C
-HETATM   31  H   dATP    1     -28.712   1.186 -64.247  1.00  0.00           H
-HETATM   32  H   dATP    1     -26.201   1.187 -63.002  1.00  0.00           H
-HETATM   33  H   dATP    1     -25.750  -0.879 -65.628  1.00  0.00           H
-HETATM   34  H   dATP    1     -28.050  -0.505 -66.277  1.00  0.00           H
-HETATM   35  H   dATP    1     -28.673  -1.192 -64.760  1.00  0.00           H
-HETATM   36  H   dAT     1     -28.384  -0.842 -62.243  1.00  0.00           H
-HETATM   37  H   dATP    1     -28.384   0.868 -61.761  1.00  0.00           H
-HETATM   38  H   dATP    1     -26.120   1.314 -65.423  1.00  0.00           H
-HETATM   39  H   dATP    1     -25.913  -3.029 -67.000  1.00  0.00           H
-HETATM   40  H   dATP    1     -27.670  -4.172 -60.921  1.00  0.00           H
-HETATM   41  H   dATP    1     -26.954  -7.963 -63.421  1.00  0.00           H
-HETATM   42  H   dATP    1     -26.491  -7.391 -65.015  1.00  0.00           H
-HETATM   43  H   dATP    1     -29.160   0.829 -59.352  1.00  0.00           H
-HETATM   44  H   dATP    1     -26.049  -3.659 -57.690  1.00  0.00           H
-HETATM   45  H   dATP    1     -23.262  -4.750 -61.263  1.00  0.00           H
-HETATM   46  H   dATP    1     -22.621  -2.278 -62.958  1.00  0.00           H
+HETATM    1  P   dATP    1     -26.645  -3.183 -58.410  1.00  0.00           P
+HETATM    2  P   dATP    1     -23.715  -3.378 -58.191  1.00  0.00           P
+HETATM    3  P   dATP    1     -22.465  -2.992 -60.836  1.00  0.00           P
+HETATM    4  O   dATP    1     -26.416  -2.102 -62.581  1.00  0.00           O
+HETATM    5  O   dATP    1     -28.519  -0.033 -63.489  1.00  0.00           O
+HETATM    6  O   dATP    1     -26.597  -2.349 -59.796  1.00  0.00           O
+HETATM    7  O   dATP    1     -25.197  -2.931 -57.735  1.00  0.00           O
+HETATM    8  O   dATP    1     -27.646  -2.335 -57.465  1.00  0.00           O
+HETATM    9  O   dATP    1     -27.009  -4.631 -58.558  1.00  0.00           O
+HETATM   10  O   dATP    1     -23.603  -2.816 -59.701  1.00  0.00           O
+HETATM   11  O   dATP    1     -23.837  -4.977 -58.392  1.00  0.00           O
+HETATM   12  O   dATP    1     -22.608  -2.941 -57.278  1.00  0.00           O
+HETATM   13  O   dATP    1     -22.531  -4.571 -61.177  1.00  0.00           O
+HETATM   14  O   dATP    1     -23.118  -2.298 -62.140  1.00  0.00           O
+HETATM   15  O   dATP    1     -21.109  -2.480 -60.446  1.00  0.00           O
+HETATM   16  N   dATP    1     -26.457  -3.802 -64.235  1.00  0.00           N
+HETATM   17  N   dATP    1     -25.748  -5.473 -65.537  1.00  0.00           N
+HETATM   18  N   dATP    1     -26.279  -4.872 -62.061  1.00  0.00           N
+HETATM   19  N   dATP    1     -25.451  -7.159 -62.259  1.00  0.00           N
+HETATM   20  N   dATP    1     -24.905  -8.150 -64.369  1.00  0.00           N
+HETATM   21  C   dATP    1     -28.636  -1.254 -62.764  1.00  0.00           C
+HETATM   22  C   dATP    1     -27.438  -1.412 -61.832  1.00  0.00           C
+HETATM   23  C   dATP    1     -26.957  -2.486 -63.857  1.00  0.00           C
+HETATM   24  C   dATP    1     -28.472  -2.403 -63.734  1.00  0.00           C
+HETATM   25  C   dATP    1     -27.761  -2.244 -60.598  1.00  0.00           C
+HETATM   26  C   dATP    1     -26.165  -4.844 -63.397  1.00  0.00           C
+HETATM   27  C   dATP    1     -26.189  -4.231 -65.511  1.00  0.00           C
+HETATM   28  C   dATP    1     -25.728  -5.867 -64.224  1.00  0.00           C
+HETATM   29  C   dATP    1     -25.362  -7.060 -63.608  1.00  0.00           C
+HETATM   30  C   dATP    1     -25.897  -6.075 -61.580  1.00  0.00           C
+HETATM   31  H   dATP    1     -29.602  -1.247 -62.254  1.00  0.00           H
+HETATM   32  H   dATP    1     -27.015  -0.447 -61.532  1.00  0.00           H
+HETATM   33  H   dATP    1     -26.576  -1.775 -64.600  1.00  0.00           H
+HETATM   34  H   dATP    1     -28.948  -2.237 -64.705  1.00  0.00           H
+HETATM   35  H   dATP    1     -28.879  -3.322 -63.298  1.00  0.00           H
+HETATM   36  H   dATP    1     -28.087  -3.252 -60.867  1.00  0.00           H
+HETATM   37  H   dATP    1     -28.552  -1.765 -60.013  1.00  0.00           H
+HETATM   38  H   dATP    1     -27.613   0.047 -63.831  1.00  0.00           H
+HETATM   39  H   dATP    1     -26.336  -3.598 -66.375  1.00  0.00           H
+HETATM   40  H   dATP    1     -25.950  -6.193 -60.504  1.00  0.00           H
+HETATM   41  H   dATP    1     -24.644  -9.006 -63.898  1.00  0.00           H
+HETATM   42  H   dATP    1     -24.837  -8.077 -65.375  1.00  0.00           H
+HETATM   43  H   dATP    1     -28.614  -2.447 -57.577  1.00  0.00           H
+HETATM   44  H   dATP    1     -23.829  -5.558 -57.602  1.00  0.00           H
+HETATM   45  H   dATP    1     -21.864  -4.954 -61.785  1.00  0.00           H
+HETATM   46  H   dATP    1     -22.577  -2.212 -62.955  1.00  0.00           H
 ENDMDL
-CONECT    1    6    9    7    8
-CONECT    2    7   12   11   10
-CONECT    3   15   13   14   10
-CONECT    4   23   22
+CONECT    1    8    9    6    7
+CONECT    2   10   11   12    7
+CONECT    3   10   13   14   15
+CONECT    4   22   23
 CONECT    5   21   38
 CONECT    6    1   25
 CONECT    7    1    2
 CONECT    8    1   43
 CONECT    9    1
 CONECT   10    3    2
-CONECT   11   44    2
+CONECT   11    2   44
 CONECT   12    2
-CONECT   13   45    3
-CONECT   14   46    3
+CONECT   13    3   45
+CONECT   14    3   46
 CONECT   15    3
-CONECT   16   23   27   26
+CONECT   16   23   26   27
 CONECT   17   27   28
-CONECT   18   30   26
+CONECT   18   26   30
 CONECT   19   29   30
-CONECT   20   42   41   29
-CONECT   21   24    5   31   22
-CONECT   22   21    4   32   25
-CONECT   23   24   33    4   16
-CONECT   24   23   34   21   35
-CONECT   25    6   37   22   36
-CONECT   26   18   28   16
-CONECT   27   17   16   39
-CONECT   28   17   29   26
-CONECT   29   28   19   20
-CONECT   30   18   40   19
+CONECT   20   29   41   42
+CONECT   21   22   24    5   31
+CONECT   22   21   25    4   32
+CONECT   23   16   24    4   33
+CONECT   24   21   23   34   35
+CONECT   25    6   22   36   37
+CONECT   26   16   18   28
+CONECT   27   16   17   39
+CONECT   28   17   26   29
+CONECT   29   19   20   28
+CONECT   30   18   19   40
 CONECT   31   21
 CONECT   32   22
 CONECT   33   23
