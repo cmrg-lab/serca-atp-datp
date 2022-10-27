@@ -8,7 +8,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
+from time import time
 
 
 
@@ -20,7 +20,10 @@ df = pd.DataFrame(columns = column_names)
 while True:
     
     try:
+        print('Opening file...')
+        tstart = time()
         f = open('step7_{}.mdout'.format(i))
+        print('Opened file step7_{}.mdout'.format(i))
     except:
         print('Breaking at i = {}'.format(i))
         break
@@ -70,6 +73,8 @@ while True:
         if 'A V E R A G E S' in line:
             break
     f.close()
+    print('Closing file (open {} seconds)'.format(time() - tstart))
+
     i+=1
     
 df.reset_index(drop = True, inplace = True)
