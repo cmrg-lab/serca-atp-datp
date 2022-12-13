@@ -30,19 +30,19 @@ ATP_A_P_dist_original = np.linalg.norm(md.compute_center_of_mass(A_domain) - md.
 ATP_N_P_dist_original = np.linalg.norm(md.compute_center_of_mass(N_domain) - md.compute_center_of_mass(P_domain), axis  = 1)
 
 file = open("A_N_dist.dat", "w+")
-for i in ATP_A_N_dist_original:
+for i in ATP_A_N_dist_original[120:5680]: #only include weighted GaMD
 	content = str(i)
 	file.write(content + "\n")
 file.close()
 
 file = open("A_P_dist.dat", "w+")
-for i in ATP_A_P_dist_original:
+for i in ATP_A_P_dist_original[120:5680]:
 	content = str(i)
 	file.write(content + "\n")
 file.close()
 
 file = open("N_P_dist.dat", "w+")
-for i in ATP_N_P_dist_original:
+for i in ATP_N_P_dist_original[120:5680]:
 	content = str(i)
 	file.write(content + "\n")
 file.close()
