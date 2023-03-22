@@ -1,0 +1,22 @@
+# CPPTRAJ 
+### Script 1
+# Load in the topology for the simulation of interest. 
+parm 3W5A_*_human_GaMD_rep1_strip_200.parm7
+
+# Load in the trajectory to be clustered. 
+trajin 3W5A_*_human_GaMD_rep1_strip_200.nc 681 
+trajin 3W5A_*_human_GaMD_rep2_strip_200.nc 681
+trajin 3W5A_*_human_GaMD_rep3_strip_200.nc 681
+
+autoimage
+
+# Run clustering on the protein structure
+# Save the representative frames of the protein trajectory as a normal AMBER nc file  
+cluster C1 hieragglo clusters 30 \
+	rms @CA \
+	out 30_cnumvtime.dat \
+	info 30_info.dat \
+	sieve 10 \
+	summarysplit split.dat splitframe 10000,20000 \
+	singlerepout cluster_out.nc singlerepfmt nc 
+	#repout temp_ repfmt pdb
