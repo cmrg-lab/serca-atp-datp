@@ -1,0 +1,27 @@
+# CPPTRAJ clustering
+# Load in topology
+parm 3W5A_ATP_human_GaMD_rep1_strip_100.parm7
+
+# Load in trajectories (all reps)
+trajin 3W5A_ATP_human_GaMD_rep1_strip_100.nc
+trajin 3W5A_ATP_human_GaMD_rep1_ext_strip_100_ext.nc
+trajin 3W5A_ATP_human_GaMD_rep2_strip_200.nc
+trajin 3W5A_ATP_human_GaMD_rep2_strip_200.nc
+
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl-
+
+# Run clustering on protein structure
+# Save representative frames as AMBER nc file
+cluster C1 hieragglo clusters 10 \
+	rms \
+	out 10_cnumvtime_ATP_full.dat \
+	info 10_info_ATP_full.dat \
+	sieve 10 random \
+	summarysplit split_ATP_full.dat splitframe 10680,21360 \
+	singlerepout cluster_out_ATP_full.nc singlerepfmt nc \
+	repout cluster_out_ATP_full repfmt pdb
+run
+
+
+
+

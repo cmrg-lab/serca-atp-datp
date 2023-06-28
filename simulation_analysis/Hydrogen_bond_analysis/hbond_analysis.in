@@ -1,0 +1,6 @@
+parm 3W5A_ATP_human_GaMD_rep3_strip_200.parm7
+trajin 3W5A_ATP_human_GaMD_rep3_strip_200.nc 1 last 1
+hbond contacts :1-994 avgout avg_ATP_human_GaMD_rep3.dat series uuseries hbond_ATP_human_GaMD_rep3.gnu nointramol
+go
+lifetime contacts[solutehb] out contacts-lifetime_ATP_human_GaMD_rep3.dat 
+go
