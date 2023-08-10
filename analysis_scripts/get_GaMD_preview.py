@@ -47,12 +47,14 @@ def main():
                 nstlim = extract_numbers(line)
             if "dt" in line:
                 dt = extract_numbers(line)
+            if "ntwx" in line:
+                ntwx = extract_numbers(line)
 
 
         plt.figure(figsize = (16,3))
         plt.title(a)
         total_simulation_time = nstlim * dt/1e3
-        print(nstlim)
+        # print(nstlim)
         plt.axvspan(0,total_simulation_time, color = 'gray', alpha = 0.1, label = 'Total Simulation Time = {} ns'.format(total_simulation_time))
         print('Total Simulation Time = {}'.format(total_simulation_time))
 
@@ -75,8 +77,10 @@ def main():
         GaMD_equil = (nteb - ntebprep) * dt / 1e3
         plt.axvspan(md_total+GaMD_pre_equil,md_total+GaMD_pre_equil + GaMD_equil ,  color = 'C5', alpha = 0.2, label = 'GaMD Equil Time = {} ns'.format(GaMD_equil))
 
-        plt.text(ntcmd/1e3*dt,-.1,'{0:.1f} MD'.format(ntcmd/1e3*dt))
+        # plt.text(ntcmd/1e3*dt,-.1,'{0:.1f} MD'.format(ntcmd/1e3*dt))
         plt.legend()
+        print('Coordinates Written Every {} ps'.format(dt * ntwx))
+        print('Total Frames = {}'.format(int(nstlim / ntwx)))
         plt.show()
 
 
