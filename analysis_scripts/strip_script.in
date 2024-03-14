@@ -1,0 +1,33 @@
+# Modified 3/14/2021
+# File that is designed to strip any proteins that have 
+# a nucleotide bound and possibly ions. 
+# It will remove water molecules, K+, and Cl- ions. 
+# It will not remove Mg+ ions. 
+# Lipids also will be removed. 
+# This script is meant to be used within the bash script 
+# Which will allow for command line arguments to specify input and output arguments
+# Assuming file type is NC
+
+set INPUT_PARM=COMMAND_INPUT_PARM # -i
+set START=COMMAND_INPUT_START # -f
+set STOP=COMMAND_INPUT_STOP # -l
+set FILE_TYPE=COMMAND_INPUT_FILE_TYPE # -ft
+set TRAJ_FILES=COMMAND_INPUTP_TRAJ # -x 
+set STRIDE=COMMAND_INPUT_STRIDE # -s
+set OUTPUT_FILE=COMMAND_INPUT_OUT # -o
+
+
+parm step5_input.parm7
+
+for i=$START;i<=$STOP;i++
+  trajin $TRAJ_FILES$i$FILE_TYPE $STRIDE last 
+done
+# Aligns based on molecule number 1
+align ^1 first
+
+# Will select everything other than the protein, Mg ion, and nucleotide
+# This "^1-6&!(:PA,PE,OL,PC,PS)" will select protein, ATP, and Mg, then the ! inverts it
+strip !(^1-6&!(:PA,PE,OL,PC,PS)) parmout $OUTPUT_FILE_top.parm7
+trajout $OUTPUT_FILE$FILE_TYPE
+
+run 
