@@ -15,6 +15,7 @@ set FILE_TYPE=COMMAND_INPUT_FILE_TYPE # -ft
 set TRAJ_FILES=COMMAND_INPUTP_TRAJ # -x 
 set STRIDE=COMMAND_INPUT_STRIDE # -s
 set OUTPUT_FILE=COMMAND_INPUT_OUT # -o
+set TOP_OUT=_top.parm7
 
 
 parm step5_input.parm7
@@ -27,7 +28,7 @@ align ^1 first
 
 # Will select everything other than the protein, Mg ion, and nucleotide
 # This "^1-6&!(:PA,PE,OL,PC,PS)" will select protein, ATP, and Mg, then the ! inverts it
-strip !(^1-6&!(:PA,PE,OL,PC,PS)) parmout $OUTPUT_FILE_top.parm7
+strip !(^1-6&!(:PA,PE,OL,PC,PS)) parmout $OUTPUT_FILE$TOP_OUT
 trajout $OUTPUT_FILE$FILE_TYPE
 
 run 
