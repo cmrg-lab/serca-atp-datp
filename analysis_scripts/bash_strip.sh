@@ -39,6 +39,7 @@ do
         x) trajectory=${OPTARG};;
         o) output=${OPTARG};;
         temp) temp=${OPTARG};;
+	h) show_help();;
 
 
     esac
