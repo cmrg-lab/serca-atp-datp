@@ -1,12 +1,16 @@
 # CPPTRAJ 
 ### Script 1
 # Load in the topology for the simulation of interest. 
-parm 3W5A_*_human_GaMD_rep1_strip_200.parm7
+# parm 3W5A_*_human_GaMD_rep1_strip_200.parm7
+parm 3W5A_Apo_human_GaMD_rep1_strip_200.parm7
 
 # Load in the trajectory to be clustered. 
-trajin 3W5A_*_human_GaMD_rep1_strip_200.nc 681 
-trajin 3W5A_*_human_GaMD_rep2_strip_200.nc 681
-trajin 3W5A_*_human_GaMD_rep3_strip_200.nc 681
+#trajin 3W5A_*_human_GaMD_rep1_strip_200.nc 681 
+#trajin 3W5A_*_human_GaMD_rep2_strip_200.nc 681
+#trajin 3W5A_*_human_GaMD_rep3_strip_200.nc 681
+trajin 3W5A_Apo_human_GaMD_rep1_strip_200.nc 561 
+trajin 3W5A_Apo_human_GaMD_rep2_strip_200.nc 681
+trajin 3W5A_Apo_human_GaMD_rep3_strip_200.nc 681
 
 autoimage
 

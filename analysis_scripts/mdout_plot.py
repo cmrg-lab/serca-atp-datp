@@ -20,6 +20,7 @@ def count_files():
             i+=1
             f.close()
         except:
+            print('Unable to open step7_{}.mdout'.format(i))
             return i-1
 
 
@@ -46,9 +47,12 @@ def read_all_files(n_files, n_steps, n_columns):
     row_counter = 0
     for i in range(1,n_files+1):
         f = open('step7_{}.mdout'.format(i))
+        print('Opened ','step7_{}.mdout'.format(i))
         for line in f.readlines():
             if 'NSTEP' in line:
                 NSTEP = (line.split()[2])
+                if int(NSTEP) == 0:
+                    mdout_array = np.zeros((n_steps * n_files+1, n_columns))
                 TIME = (line.split()[5])
                 TEMP = (line.split()[8])
                 PRES = (line.split()[11])
@@ -90,6 +94,10 @@ def read_all_files(n_files, n_steps, n_columns):
 
 n_files = count_files()
 step_size, n_steps = step_info('step7_1.mdout')
+if n_steps != step_info('step7_{}.mdout'.format(n_files))[1]:
+    print('First file does not match last file number of steps')
+    print('Exiting')
+    exit()
 print('There are {} files.'.format(n_files))
 
 column_names = ['NSTEP','TIME','TEMP','PRES','Etot','EKtot','EPtot','BOND','ANGLE','DIHED','UB','UB','IMP','CMAP','ONE_FOUR_NB','ONE_FOUR_EEL','VDWAALS','EELEC','EHBOND','RESTRAINT','EKCMT','VIRIAL','VOLUME','SURFTEN','Density']
@@ -110,8 +118,9 @@ for i in range(5):
     for j in range(5):
         #print(i,j,)
         count = i*5+j
-        ax[i,j].plot(df.iloc[:,count], color = 'C0', alpha = 0.1)
-        ax[i,j].plot(df.iloc[0::100,count], color = 'C0')
+        # Plot against time (index 1)
+        ax[i,j].plot(df.iloc[:,1], df.iloc[:,count], color = 'C0', alpha = 0.1)
+        ax[i,j].plot(df.iloc[0::100,1], df.iloc[0::100,count], color = 'C0')
         ax[i,j].set_title(df.columns[count])
 plt.tight_layout()
 

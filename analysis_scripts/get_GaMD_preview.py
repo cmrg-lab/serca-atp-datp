@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-mpl.use('Qt5Agg')
+# mpl.use('Qt5Agg')
 
 import sys
 
@@ -23,6 +23,7 @@ def main():
     arguments = sys.argv[1:]
 
     print("Command line arguments:", arguments)
+    print()
     for a in arguments:
         print(a)
         try:
@@ -32,6 +33,15 @@ def main():
         except:
             print('Error loading or reading file {}. \nExiting...'.format(a))
             return -1
+        # Define intitial values of 0
+        ntcmdprep = 0
+        ntcmd = 0
+        ntebprep = 0
+        nteb = 0 
+        ntave = 0
+        nstlim = 0
+        dt = 0
+        ntwx = 0
         for line in lines:
             if "ntcmdprep" in line:
                 ntcmdprep = extract_numbers(line)

@@ -8,30 +8,34 @@ show_help() {
     echo "Usage: $(basename "$0") [options]"
     echo "Options:"
     echo "  -h, --help       Show this help message and exit"
-    echo "The follwing flags are expected:"
-    echo "    -i topology file (parm7)"
-    echo "    -t trajectory file (excluding integer counter and extension)"
-    echo "    -l last trajectory index" 
+    echo "The following flags are expected:"
+    echo "  -i topology file (parm7)"
+    echo "  -x trajectory file (excluding integer counter and extension)"
+    echo "  -o output filename excluding file types"
+    echo "  -l last trajectory index"
     echo "Optional: -f (first index), -s (stride)"
-
-
     # Add other options description here
 }
 
-
-
-
 # Setting Defaults for stride and file type
-
 stride=1
 first_index=1
-filetype=.nc
-echo $filetype
+filetype=".nc"
+echo "$filetype"
 
-while getopts :i:f:l:s:ft:x:o:temp: flag
-do
+# Manually check for --help before getopts loop
+for arg in "$@"; do
+    case $arg in
+        --help)
+            show_help
+            exit 0
+            ;;
+    esac
+done
+
+while getopts ":i:f:l:s:t:x:o:temp:h" flag; do
     case "${flag}" in
-        i) input_parm=${OPTARG};;   
+        i) input_parm=${OPTARG};;
         f) first_index=${OPTARG};;
         l) last_index=${OPTARG};;
         s) stride=${OPTARG};;
@@ -39,11 +43,13 @@ do
         x) trajectory=${OPTARG};;
         o) output=${OPTARG};;
         temp) temp=${OPTARG};;
-	h) show_help();;
-
-
+        h) show_help
+           exit 0;;
+        *) echo "Incorrect option provided"
+           exit 1;;
     esac
 done
+
 
 # Check to make sure all the variables are set. 
 missing_variables=()
