@@ -1,0 +1,72 @@
+# ATP
+parm 3W5A_ATP_human_GaMD_rep1_strip_100.parm7
+trajin 3W5A_ATP_human_GaMD_rep1_strip_100.nc 
+strip :1-993
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl- parmout 3W5A_ATP_human_GaMD_rep1_strip_100_nucleotide.parm7
+trajout 3W5A_ATP_human_GaMD_rep1_strip_100_nucleotide.nc
+run
+exit
+
+parm 3W5A_ATP_human_GaMD_rep1_ext_strip_100_ext.parm7
+trajin 3W5A_ATP_human_GaMD_rep1_ext_strip_100_ext.nc 
+strip :1-993 
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl- parmout 3W5A_ATP_human_GaMD_rep1_ext_strip_100_ext_nucleotide.parm7
+trajout 3W5A_ATP_human_GaMD_rep1_ext_strip_100_ext_nucleotide.nc
+run
+exit
+
+
+parm 3W5A_ATP_human_GaMD_rep2_strip_200.parm7
+trajin 3W5A_ATP_human_GaMD_rep2_strip_200.nc 
+strip :1-993 
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl- parmout 3W5A_ATP_human_GaMD_rep2_strip_200_nucleotide.parm7
+trajout 3W5A_ATP_human_GaMD_rep2_strip_200_nucleotide.nc
+run
+exit
+
+
+parm 3W5A_ATP_human_GaMD_rep3_strip_200.parm7
+trajin 3W5A_ATP_human_GaMD_rep3_strip_200.nc 
+strip :1-993 
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl- parmout 3W5A_ATP_human_GaMD_rep3_strip_200_nucleotide.parm7
+trajout 3W5A_ATP_human_GaMD_rep3_strip_200_nucleotide.nc
+run
+exit
+
+
+
+
+# dATP
+parm 3W5A_dATP_human_GaMD_rep1_strip_100.parm7
+trajin 3W5A_dATP_human_GaMD_rep1_strip_100.nc 
+strip :1-993 
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl- parmout 3W5A_dATP_human_GaMD_rep1_strip_100_nucleotide.parm7
+trajout 3W5A_dATP_human_GaMD_rep1_strip_100_nucleotide.nc
+run
+exit
+
+parm 3W5A_dATP_human_GaMD_rep1_ext_strip_100_ext.parm7
+trajin 3W5A_dATP_human_GaMD_rep1_ext_strip_100_ext.nc 
+strip :1-993 
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl- parmout 3W5A_dATP_human_GaMD_rep1_ext_strip_100_ext_nucleotide.parm7
+trajout 3W5A_dATP_human_GaMD_rep1_ext_strip_100_ext_nucleotide.nc
+run
+exit
+
+
+parm 3W5A_dATP_human_GaMD_rep2_strip_200.parm7
+trajin 3W5A_dATP_human_GaMD_rep2_strip_200.nc 
+strip :1-993 
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl- parmout 3W5A_dATP_human_GaMD_rep2_strip_200_nucleotide.parm7
+trajout 3W5A_dATP_human_GaMD_rep2_strip_200_nucleotide.nc
+run
+exit
+
+
+parm 3W5A_dATP_human_GaMD_rep3_strip_200.parm7
+trajin 3W5A_dATP_human_GaMD_rep3_strip_200.nc 
+strip :1-993 
+strip :WAT,PS,PE,PC,PA,OL,K+,Cl- parmout 3W5A_dATP_human_GaMD_rep3_strip_200_nucleotide.parm7
+trajout 3W5A_dATP_human_GaMD_rep3_strip_200_nucleotide.nc
+run
+exit
