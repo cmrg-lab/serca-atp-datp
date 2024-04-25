@@ -1,4 +1,4 @@
-# Modified 3/14/2021
+# Modified 3/14/2024
 # File that is designed to strip any proteins that have 
 # a nucleotide bound and possibly ions. 
 # It will remove water molecules, K+, and Cl- ions. 
