@@ -1,8 +1,14 @@
+# This file is now not being used frequently.
+# Instead look at the file in the analysis scripts directory. 
+
+
 parm step5_input.parm7
 
-for i=1;i<51;i++
+for i=1;i<=100;i++
   trajin step7_$i.nc 1 last 
 done
-strip :WAT parmout 3W5A_original_strip_top.parm7
-trajout 3W5A_original_strip_50.nc
+align :1-995 first
+strip :996-87888 parmout 3W5A_original_apo_protein_align.parm7
+trajout 3W5A_original_apo_protein_align_200ns.nc
+
 run 

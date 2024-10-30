@@ -1,0 +1,14 @@
+receptor = 7BT2.pdbqt
+ligand = dATP.pdbqt
+
+out = dATP_test_out.pdbpqt
+
+center_x = -33.456
+center_y = -25.178
+center_z = 1.945
+
+size_x = 42
+size_y = 40
+size_z = 32
+
+exhaustiveness = 500

@@ -1,0 +1,17 @@
+### Script 2
+# Load in topology file for the simulation 
+# parm 3W5A_*_human_GaMD_rep1_strip_200.parm7
+parm 3W5A_Apo_human_GaMD_rep1_strip_200.parm7
+
+# Load in the trajectory data of the clustered proteins 
+trajin cluster_out.nc
+autoimage
+rms fit :1-904
+# Strip away the unwanted elements (ions, water) and keep nucleotide and the lipid membrane 
+strip @%Cl*,K*
+strip :ATP,DTP,@%Cl*,K*,Mg*,MG* 
+strip :993-10000
+
+# Save the trajectory as PQR files (use the VDW)
+# Ideally one PQR per frame 
+trajout stripped_cluster.pdb pdb vdw multi nobox noter
